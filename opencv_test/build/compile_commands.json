@@ -1,0 +1,7 @@
+[
+{
+  "directory": "C:/Users/pepes/OneDrive/Dokumente/Pepe/Siemens/WRO/2022_2023/wro-2022_23/opencv_test/build",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1434~1.319\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -external:IC:\\Users\\pepes\\opencv\\build\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /FoCMakeFiles\\opencv_test.dir\\main.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\pepes\\OneDrive\\Dokumente\\Pepe\\Siemens\\WRO\\2022_2023\\wro-2022_23\\opencv_test\\main.cpp",
+  "file": "C:\\Users\\pepes\\OneDrive\\Dokumente\\Pepe\\Siemens\\WRO\\2022_2023\\wro-2022_23\\opencv_test\\main.cpp"
+}
+]
