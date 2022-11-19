@@ -1,0 +1,7 @@
+[
+{
+  "directory": "C:/Users/pepes/OneDrive/Dokumente/Pepe/Siemens/WRO/2022_2023/wro-2022_23/rplidar_test/build",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1434~1.319\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /FoCMakeFiles\\rplidar_test.dir\\src\\main.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\pepes\\OneDrive\\Dokumente\\Pepe\\Siemens\\WRO\\2022_2023\\wro-2022_23\\rplidar_test\\src\\main.cpp",
+  "file": "C:\\Users\\pepes\\OneDrive\\Dokumente\\Pepe\\Siemens\\WRO\\2022_2023\\wro-2022_23\\rplidar_test\\src\\main.cpp"
+}
+]
