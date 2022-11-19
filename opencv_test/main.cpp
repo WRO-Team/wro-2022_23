@@ -6,7 +6,7 @@ using namespace cv; //Um cv::<...> zu vermeiden
 
 int main(int, char**) { //main-Funktion
     
-    Mat image; //TODO: Was macht der Befehl genau bzw. was ist "Mat"?
+    Mat image; //TODO: #2 Was macht der Befehl genau bzw. was ist "Mat"?
     image = imread("C:/Users/pepes/Pictures/Saved Pictures/88223a.jpg"); //!Pfad zu Bild aus eigenem Verzeichnis eintragen
 
     if ( !image.data ){ //Prüfen, ob Bild vorhanden
