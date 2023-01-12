@@ -1,5 +1,5 @@
-/home/pepe/Documents/OpenCV_Test/build/CMakeFiles/edit_cache.dir
-/home/pepe/Documents/OpenCV_Test/build/CMakeFiles/package_source.dir
-/home/pepe/Documents/OpenCV_Test/build/CMakeFiles/rebuild_cache.dir
-/home/pepe/Documents/OpenCV_Test/build/CMakeFiles/package.dir
-/home/pepe/Documents/OpenCV_Test/build/CMakeFiles/opencv_test.dir
+/home/pepe/Documents/wro-2022_23/OpenCV_Test/build/CMakeFiles/edit_cache.dir
+/home/pepe/Documents/wro-2022_23/OpenCV_Test/build/CMakeFiles/package_source.dir
+/home/pepe/Documents/wro-2022_23/OpenCV_Test/build/CMakeFiles/rebuild_cache.dir
+/home/pepe/Documents/wro-2022_23/OpenCV_Test/build/CMakeFiles/package.dir
+/home/pepe/Documents/wro-2022_23/OpenCV_Test/build/CMakeFiles/opencv_test.dir

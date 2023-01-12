@@ -1,7 +1,7 @@
 [
 {
-  "directory": "/home/pepe/Documents/OpenCV_Test/build",
-  "command": "/usr/bin/aarch64-linux-gnu-g++  -isystem /usr/local/include/opencv4 -g -o CMakeFiles/opencv_test.dir/main.cpp.o -c /home/pepe/Documents/OpenCV_Test/main.cpp",
-  "file": "/home/pepe/Documents/OpenCV_Test/main.cpp"
+  "directory": "/home/pepe/Documents/wro-2022_23/OpenCV_Test/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++  -isystem /usr/local/include/opencv4 -g -o CMakeFiles/opencv_test.dir/main.cpp.o -c /home/pepe/Documents/wro-2022_23/OpenCV_Test/main.cpp",
+  "file": "/home/pepe/Documents/wro-2022_23/OpenCV_Test/main.cpp"
 }
 ]

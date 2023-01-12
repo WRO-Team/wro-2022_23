@@ -1,4 +1,4 @@
-# Install script for directory: /home/pepe/Documents/OpenCV_Test
+# Install script for directory: /home/pepe/Documents/wro-2022_23/OpenCV_Test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/pepe/Documents/OpenCV_Test/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/pepe/Documents/wro-2022_23/OpenCV_Test/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

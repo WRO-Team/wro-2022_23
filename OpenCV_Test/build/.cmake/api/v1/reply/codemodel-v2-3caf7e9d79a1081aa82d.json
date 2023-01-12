@@ -48,8 +48,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/pepe/Documents/OpenCV_Test/build",
-		"source" : "/home/pepe/Documents/OpenCV_Test"
+		"build" : "/home/pepe/Documents/wro-2022_23/OpenCV_Test/build",
+		"source" : "/home/pepe/Documents/wro-2022_23/OpenCV_Test"
 	},
 	"version" : 
 	{

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/pepe/Documents/OpenCV_Test/main.cpp
+/home/pepe/Documents/wro-2022_23/OpenCV_Test/main.cpp
 opencv2/opencv.hpp
 -
 stdio.h

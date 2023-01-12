@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/pepe/Documents/OpenCV_Test/main.cpp" "/home/pepe/Documents/OpenCV_Test/build/CMakeFiles/opencv_test.dir/main.cpp.o"
+  "/home/pepe/Documents/wro-2022_23/OpenCV_Test/main.cpp" "/home/pepe/Documents/wro-2022_23/OpenCV_Test/build/CMakeFiles/opencv_test.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

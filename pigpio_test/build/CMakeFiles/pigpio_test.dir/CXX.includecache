@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/pepe/Documents/pigpio_test/main.cpp
+/home/pepe/Documents/wro-2022_23/pigpio_test/main.cpp
 pigpio.h
 -
 stdio.h

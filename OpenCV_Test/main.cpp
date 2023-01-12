@@ -8,7 +8,7 @@ int main() {
     
     Mat image;
 
-    namedWindow("Display window");
+    //namedWindow("Display window");
 
     VideoCapture cap(-1);
 

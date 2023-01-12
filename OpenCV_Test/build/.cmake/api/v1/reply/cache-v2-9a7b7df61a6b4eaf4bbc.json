@@ -83,7 +83,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/pepe/Documents/OpenCV_Test/build"
+			"value" : "/home/pepe/Documents/wro-2022_23/OpenCV_Test/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -619,7 +619,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/pepe/Documents/OpenCV_Test"
+			"value" : "/home/pepe/Documents/wro-2022_23/OpenCV_Test"
 		},
 		{
 			"name" : "CMAKE_INSTALL_BINDIR",
@@ -2375,7 +2375,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/pepe/Documents/OpenCV_Test/build"
+			"value" : "/home/pepe/Documents/wro-2022_23/OpenCV_Test/build"
 		},
 		{
 			"name" : "opencv_test_SOURCE_DIR",
@@ -2387,7 +2387,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/pepe/Documents/OpenCV_Test"
+			"value" : "/home/pepe/Documents/wro-2022_23/OpenCV_Test"
 		},
 		{
 			"name" : "rascam_BINARY_DIR",
@@ -2399,7 +2399,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/pepe/Documents/OpenCV_Test/build"
+			"value" : "/home/pepe/Documents/wro-2022_23/OpenCV_Test/build"
 		},
 		{
 			"name" : "rascam_SOURCE_DIR",
@@ -2411,7 +2411,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/pepe/Documents/OpenCV_Test"
+			"value" : "/home/pepe/Documents/wro-2022_23/OpenCV_Test"
 		}
 	],
 	"kind" : "cache",
