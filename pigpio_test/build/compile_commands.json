@@ -1,7 +1,7 @@
 [
 {
-  "directory": "/home/pepe/Documents/pigpio_test/build",
-  "command": "/usr/bin/aarch64-linux-gnu-g++   -g -o CMakeFiles/pigpio_test.dir/main.cpp.o -c /home/pepe/Documents/pigpio_test/main.cpp",
-  "file": "/home/pepe/Documents/pigpio_test/main.cpp"
+  "directory": "/home/pepe/Documents/wro-2022_23/pigpio_test/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++   -g -o CMakeFiles/pigpio_test.dir/main.cpp.o -c /home/pepe/Documents/wro-2022_23/pigpio_test/main.cpp",
+  "file": "/home/pepe/Documents/wro-2022_23/pigpio_test/main.cpp"
 }
 ]

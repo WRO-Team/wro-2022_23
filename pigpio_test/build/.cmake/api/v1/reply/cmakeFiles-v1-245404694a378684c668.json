@@ -168,8 +168,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/home/pepe/Documents/pigpio_test/build",
-		"source" : "/home/pepe/Documents/pigpio_test"
+		"build" : "/home/pepe/Documents/wro-2022_23/pigpio_test/build",
+		"source" : "/home/pepe/Documents/wro-2022_23/pigpio_test"
 	},
 	"version" : 
 	{

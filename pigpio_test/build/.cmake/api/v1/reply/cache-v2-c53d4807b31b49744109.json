@@ -83,7 +83,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/pepe/Documents/pigpio_test/build"
+			"value" : "/home/pepe/Documents/wro-2022_23/pigpio_test/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -619,7 +619,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/pepe/Documents/pigpio_test"
+			"value" : "/home/pepe/Documents/wro-2022_23/pigpio_test"
 		},
 		{
 			"name" : "CMAKE_INSTALL_BINDIR",
@@ -2087,7 +2087,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/pepe/Documents/pigpio_test/build"
+			"value" : "/home/pepe/Documents/wro-2022_23/pigpio_test/build"
 		},
 		{
 			"name" : "pigpio_test_SOURCE_DIR",
@@ -2099,7 +2099,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/pepe/Documents/pigpio_test"
+			"value" : "/home/pepe/Documents/wro-2022_23/pigpio_test"
 		},
 		{
 			"name" : "pigpiod_if2_LIBRARY",

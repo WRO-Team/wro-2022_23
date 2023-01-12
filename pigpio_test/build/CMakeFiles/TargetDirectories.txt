@@ -1,5 +1,5 @@
-/home/pepe/Documents/pigpio_test/build/CMakeFiles/edit_cache.dir
-/home/pepe/Documents/pigpio_test/build/CMakeFiles/package_source.dir
-/home/pepe/Documents/pigpio_test/build/CMakeFiles/rebuild_cache.dir
-/home/pepe/Documents/pigpio_test/build/CMakeFiles/package.dir
-/home/pepe/Documents/pigpio_test/build/CMakeFiles/pigpio_test.dir
+/home/pepe/Documents/wro-2022_23/pigpio_test/build/CMakeFiles/edit_cache.dir
+/home/pepe/Documents/wro-2022_23/pigpio_test/build/CMakeFiles/package_source.dir
+/home/pepe/Documents/wro-2022_23/pigpio_test/build/CMakeFiles/rebuild_cache.dir
+/home/pepe/Documents/wro-2022_23/pigpio_test/build/CMakeFiles/package.dir
+/home/pepe/Documents/wro-2022_23/pigpio_test/build/CMakeFiles/pigpio_test.dir
