@@ -1,0 +1,1 @@
+/usr/bin/aarch64-linux-gnu-g++ -g -rdynamic CMakeFiles/rplidar_test.dir/src/main.cpp.o -o rplidar_test  /home/pepe/rplidar_sdk/output/Linux/Release/libsl_lidar_sdk.a -pthread 
