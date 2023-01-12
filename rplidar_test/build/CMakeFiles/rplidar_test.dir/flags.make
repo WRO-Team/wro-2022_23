@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/aarch64-linux-gnu-g++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/pepe/Documents/rplidar_test/include -isystem /home/pepe/rplidar_sdk/sdk/include -isystem /home/pepe/rplidar_sdk/sdk/src
+CXX_INCLUDES = -I/home/pepe/Documents/wro-2022_23/rplidar_test/include -isystem /home/pepe/Documents/wro-2022_23/rplidar_test/lib/rplidar_sdk/sdk/include -isystem /home/pepe/Documents/wro-2022_23/rplidar_test/lib/rplidar_sdk/sdk/src
 
 CXX_FLAGS = -g -pthread
 

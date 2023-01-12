@@ -1,7 +1,7 @@
 [
 {
-  "directory": "/home/pepe/Documents/rplidar_test/build",
-  "command": "/usr/bin/aarch64-linux-gnu-g++  -I/home/pepe/Documents/rplidar_test/include -isystem /home/pepe/rplidar_sdk/sdk/include -isystem /home/pepe/rplidar_sdk/sdk/src -g -pthread -o CMakeFiles/rplidar_test.dir/src/main.cpp.o -c /home/pepe/Documents/rplidar_test/src/main.cpp",
-  "file": "/home/pepe/Documents/rplidar_test/src/main.cpp"
+  "directory": "/home/pepe/Documents/wro-2022_23/rplidar_test/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++  -I/home/pepe/Documents/wro-2022_23/rplidar_test/include -isystem /home/pepe/Documents/wro-2022_23/rplidar_test/lib/rplidar_sdk/sdk/include -isystem /home/pepe/Documents/wro-2022_23/rplidar_test/lib/rplidar_sdk/sdk/src -g -pthread -o CMakeFiles/rplidar_test.dir/src/main.cpp.o -c /home/pepe/Documents/wro-2022_23/rplidar_test/src/main.cpp",
+  "file": "/home/pepe/Documents/wro-2022_23/rplidar_test/src/main.cpp"
 }
 ]

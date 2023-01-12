@@ -66,17 +66,17 @@
 			[
 				{
 					"backtrace" : 4,
-					"path" : "/home/pepe/Documents/rplidar_test/include"
+					"path" : "/home/pepe/Documents/wro-2022_23/rplidar_test/include"
 				},
 				{
 					"backtrace" : 2,
 					"isSystem" : true,
-					"path" : "/home/pepe/rplidar_sdk/sdk/include"
+					"path" : "/home/pepe/Documents/wro-2022_23/rplidar_test/lib/rplidar_sdk/sdk/include"
 				},
 				{
 					"backtrace" : 2,
 					"isSystem" : true,
-					"path" : "/home/pepe/rplidar_sdk/sdk/src"
+					"path" : "/home/pepe/Documents/wro-2022_23/rplidar_test/lib/rplidar_sdk/sdk/src"
 				}
 			],
 			"language" : "CXX",
@@ -101,7 +101,7 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "/home/pepe/rplidar_sdk/output/Linux/Release/libsl_lidar_sdk.a",
+				"fragment" : "../lib/rplidar_sdk/output/Linux/Release/libsl_lidar_sdk.a",
 				"role" : "libraries"
 			},
 			{

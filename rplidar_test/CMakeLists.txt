@@ -9,7 +9,7 @@ set(THREADS_PREFER_PTHREAD_FLAG ON)
 find_package(Threads REQUIRED)
 target_link_libraries( ${PROJECT_NAME} PRIVATE Threads::Threads)
 
-set(RPLIDAR_SDK_PATH "/home/pepe/Documents/wro-2022_23/lib/rplidar_sdk/")
+set(RPLIDAR_SDK_PATH "/home/pepe/Documents/wro-2022_23/rplidar_test/lib/rplidar_sdk/")
 
 add_library(rplidar STATIC IMPORTED)
 

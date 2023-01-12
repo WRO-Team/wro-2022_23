@@ -2,58 +2,6 @@
 	"entries" : 
 	[
 		{
-			"name" : "<project_name>_BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "/home/pepe/Documents/rplidar_test/build"
-		},
-		{
-			"name" : "<project_name>_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "/home/pepe/Documents/rplidar_test"
-		},
-		{
-			"name" : "BUILD_TESTING",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Build the testing tree."
-				}
-			],
-			"type" : "BOOL",
-			"value" : "ON"
-		},
-		{
-			"name" : "BZRCOMMAND",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Path to a program."
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "BZRCOMMAND-NOTFOUND"
-		},
-		{
 			"name" : "CMAKE_ADDR2LINE",
 			"properties" : 
 			[
@@ -107,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/pepe/Documents/rplidar_test/build"
+			"value" : "/home/pepe/Documents/wro-2022_23/rplidar_test/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -646,30 +594,6 @@
 			"value" : ""
 		},
 		{
-			"name" : "CMAKE_HAVE_PTHREADS_CREATE",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Have library pthreads"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : ""
-		},
-		{
-			"name" : "CMAKE_HAVE_PTHREAD_CREATE",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Have library pthread"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "1"
-		},
-		{
 			"name" : "CMAKE_HAVE_PTHREAD_H",
 			"properties" : 
 			[
@@ -691,7 +615,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/pepe/Documents/rplidar_test"
+			"value" : "/home/pepe/Documents/wro-2022_23/rplidar_test"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1278,38 +1202,6 @@
 			"value" : "FALSE"
 		},
 		{
-			"name" : "COVERAGE_COMMAND",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Path to the coverage program that CTest uses for performing coverage inspection"
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "/usr/bin/gcov"
-		},
-		{
-			"name" : "COVERAGE_EXTRA_FLAGS",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Extra command line flags to pass to the coverage tool"
-				}
-			],
-			"type" : "STRING",
-			"value" : "-l"
-		},
-		{
 			"name" : "CPACK_BINARY_DEB",
 			"properties" : 
 			[
@@ -1566,86 +1458,6 @@
 			"value" : "OFF"
 		},
 		{
-			"name" : "CTEST_SUBMIT_RETRY_COUNT",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "How many times to retry timed-out CTest submissions."
-				}
-			],
-			"type" : "STRING",
-			"value" : "3"
-		},
-		{
-			"name" : "CTEST_SUBMIT_RETRY_DELAY",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "How long to wait between timed-out CTest submissions."
-				}
-			],
-			"type" : "STRING",
-			"value" : "5"
-		},
-		{
-			"name" : "CVSCOMMAND",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Path to a program."
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "CVSCOMMAND-NOTFOUND"
-		},
-		{
-			"name" : "CVS_UPDATE_OPTIONS",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Options passed to the cvs update command."
-				}
-			],
-			"type" : "STRING",
-			"value" : "-d -A -P"
-		},
-		{
-			"name" : "DART_TESTING_TIMEOUT",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Maximum time allowed before CTest will kill the test."
-				}
-			],
-			"type" : "STRING",
-			"value" : "1500"
-		},
-		{
 			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_Threads",
 			"properties" : 
 			[
@@ -1656,166 +1468,6 @@
 			],
 			"type" : "INTERNAL",
 			"value" : "[TRUE][v()]"
-		},
-		{
-			"name" : "GITCOMMAND",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Path to a program."
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "/usr/bin/git"
-		},
-		{
-			"name" : "HGCOMMAND",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Path to a program."
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "HGCOMMAND-NOTFOUND"
-		},
-		{
-			"name" : "MAKECOMMAND",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Command to build the project"
-				}
-			],
-			"type" : "STRING",
-			"value" : "/usr/bin/cmake --build . --config \"${CTEST_CONFIGURATION_TYPE}\" -- -i"
-		},
-		{
-			"name" : "MEMORYCHECK_COMMAND",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Path to the memory checking command, used for memory error detection."
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "MEMORYCHECK_COMMAND-NOTFOUND"
-		},
-		{
-			"name" : "MEMORYCHECK_SUPPRESSIONS_FILE",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "File that contains suppressions for the memory checker"
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : ""
-		},
-		{
-			"name" : "P4COMMAND",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Path to a program."
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "P4COMMAND-NOTFOUND"
-		},
-		{
-			"name" : "SITE",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Name of the computer/site where compile is being run"
-				}
-			],
-			"type" : "STRING",
-			"value" : "raspberrypi"
-		},
-		{
-			"name" : "SLURM_SBATCH_COMMAND",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Path to the SLURM sbatch executable"
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "SLURM_SBATCH_COMMAND-NOTFOUND"
-		},
-		{
-			"name" : "SLURM_SRUN_COMMAND",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Path to the SLURM srun executable"
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "SLURM_SRUN_COMMAND-NOTFOUND"
-		},
-		{
-			"name" : "SVNCOMMAND",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Path to a program."
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "SVNCOMMAND-NOTFOUND"
 		},
 		{
 			"name" : "THREADS_HAVE_PTHREAD_ARG",
@@ -1839,7 +1491,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/pepe/Documents/rplidar_test/build"
+			"value" : "/home/pepe/Documents/wro-2022_23/rplidar_test/build"
 		},
 		{
 			"name" : "rplidar_test_SOURCE_DIR",
@@ -1851,7 +1503,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/pepe/Documents/rplidar_test"
+			"value" : "/home/pepe/Documents/wro-2022_23/rplidar_test"
 		}
 	],
 	"kind" : "cache",

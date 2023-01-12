@@ -38,7 +38,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "rplidar_test::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-rplidar_test-Debug-ad7aa34f7ec8cef1c909.json",
+					"jsonFile" : "target-rplidar_test-Debug-c8badfca50c11bc03c1a.json",
 					"name" : "rplidar_test",
 					"projectIndex" : 0
 				}
@@ -48,8 +48,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/pepe/Documents/rplidar_test/build",
-		"source" : "/home/pepe/Documents/rplidar_test"
+		"build" : "/home/pepe/Documents/wro-2022_23/rplidar_test/build",
+		"source" : "/home/pepe/Documents/wro-2022_23/rplidar_test"
 	},
 	"version" : 
 	{
