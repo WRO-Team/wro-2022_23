@@ -1,0 +1,131 @@
+#include <LiquidCrystal.h>
+#define S0 2
+#define S1 3
+#define S2 4
+#define S3 5
+#define sensorOut 6
+
+
+// Stores frequency read by the photodiodes
+int redFrequency = 0;
+int greenFrequency = 0;
+int blueFrequency = 0;
+int orangeLine = 0;
+int blaueLine = 0;
+const int rs = 12, en = 11, d4 = 10, d5 = 9, d6 = 8, d7 = 7;
+LiquidCrystal lcd(rs, en, d4, d5, d6, d7);
+void setup() {
+  // Setting the outputs
+  pinMode(S0, OUTPUT);
+  pinMode(S1, OUTPUT);
+  pinMode(S2, OUTPUT);
+  pinMode(S3, OUTPUT);
+  
+  
+  // Setting the sensorOut as an input
+  pinMode(sensorOut, INPUT);
+  
+  // Setting frequency scaling to 20%
+  digitalWrite(S0,HIGH);
+  digitalWrite(S1,LOW);
+  
+   // Begins serial communication 
+  Serial.begin(9600);
+  lcd.begin(16, 2);
+  
+}
+void loop() {
+  // Setting RED (R) filtered photodiodes to be read
+  digitalWrite(S2,LOW);
+  digitalWrite(S3,LOW);
+  
+  // Reading the output frequency
+  redFrequency = pulseIn(sensorOut, LOW);
+  
+   // Printing the RED (R) value
+  Serial.print("R = ");
+  Serial.print(redFrequency);
+
+  
+  // Setting GREEN (G) filtered photodiodes to be read
+  digitalWrite(S2,HIGH);
+  digitalWrite(S3,HIGH);
+  
+  // Reading the output frequency
+  greenFrequency = pulseIn(sensorOut, LOW);
+  
+  // Printing the GREEN (G) value  
+  Serial.print(" G = ");
+  Serial.print(greenFrequency);
+
+ 
+  // Setting BLUE (B) filtered photodiodes to be read
+  digitalWrite(S2,LOW);
+  digitalWrite(S3,HIGH);
+  
+  // Reading the output frequency
+  blueFrequency = pulseIn(sensorOut, LOW);
+  
+  // Printing the BLUE (B) value 
+  Serial.print(" B = ");
+  Serial.println(blueFrequency);
+  lcd.setCursor(0, 0);
+
+  if (redFrequency < 20 && greenFrequency < 20 && blueFrequency < 20) {
+    lcd.clear();
+    lcd.print("Weiss");
+  }
+  else if (redFrequency < greenFrequency && redFrequency < blueFrequency) {
+    lcd.clear();
+    lcd.print("Rot");
+    orangeLine = orangeLine + 1;
+    lcd.setCursor(0, 1);
+    lcd.print(orangeLine);
+  }
+  else if (greenFrequency < redFrequency && greenFrequency < blueFrequency) {
+    lcd.clear();
+    lcd.print("Gruen");
+  }
+  else if (blueFrequency < redFrequency && blueFrequency < greenFrequency) {
+    lcd.clear();
+    lcd.print("Blau");
+    blaueLine = blaueLine + 1;
+    lcd.setCursor(8, 1);
+    lcd.print(blaueLine);
+  }
+  lcd.setCursor(0, 1);
+    lcd.print("OLine:");
+  lcd.setCursor(6, 1);
+    lcd.print(orangeLine);
+  lcd.setCursor(8, 1);
+    lcd.print("BLine:");
+  lcd.setCursor(14, 1);
+    lcd.print(blaueLine);
+  
+  if (orangeLine >= 12 && blaueLine >= 12) {
+      lcd.clear();
+      lcd.setCursor(0, 1);
+      lcd.print("STOP in ");
+      lcd.setCursor(8, 1);
+      lcd.print("5");
+      delay(1000);
+      lcd.setCursor(8, 1);
+      lcd.print("4");
+      delay(1000);
+      lcd.setCursor(8, 1);
+      lcd.print("3");
+      delay(1000);
+      lcd.setCursor(8, 1);
+      lcd.print("2");
+      delay(1000);
+      lcd.setCursor(8, 1);
+      lcd.print("1");
+      delay(1000);
+      lcd.clear();
+      lcd.setCursor(0, 1);
+      lcd.print("######STOP#######");
+      delay(10000);
+    	exit(0);
+  }  
+  delay(400);
+}
