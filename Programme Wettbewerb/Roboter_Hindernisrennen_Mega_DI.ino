@@ -52,38 +52,44 @@ void setup() {
 }
 
 void loop() {
-Abstand();
+Abstand();//Lidar misst Abstand
     /*Serial.print(l);
     Serial.print(" ");
     Serial.println(r);
     Serial.print(" ");
     Serial.print(Fahrtrichtung);*/
-  /*if(digitalRead(30) == 3){//Signal von Arduino Nano mit Farbsensor
+  if(digitalRead(30) == 1){//Signal von Arduino Nano mit Farbsensor wenn 3. Runde vollendet
     Fahrtrichtung=3;
-  }*/
-  HindernisG();
+  }
+  HindernisG();// Werte von Pixy-Kamera entfangen
   HindernisR();
   if(r==0 && l==0){
     Fahrtrichtung =0;
   }
-  /*  if(c < 200 && c > 2){ //abstand nach vorn zu klein 
+  if(c < 250 && c > 2){ //abstand nach vorn zu klein 
     Antrieb(80, 0, 1);
-    rechts(200);        //rückwärts fahren und einlenken
+    if(a>b){
+      links(200);
+    }
+    if(b>a){
+      rechts(200);
+    }
+            //rückwärts fahren und einlenken
     long q= millis() + 1000;
     while(q > millis()){
       Abstand();
     }
     geradeaus();
-  }
-    else{*/
+    }
+    else{
   switch (Fahrtrichtung){
   case 0:
   default: //Normalbetrieb
    Antrieb(100, 1, 0);
     //rlenken=((a+e)/4)-((b+d)/4);
     //llenken=((b+d)/4)-((a+e)/4);
-    rlenken=((a/2)-(b/2));
-    llenken=((b/2)-(a/2));
+    rlenken=((a/2)-(b/2));//Lenkeinschlag nach rechts, Abstandswert von links durch zwei minus Abstandswert von rechts durch zwei
+    llenken=((b/2)-(a/2));////Lenkeinschlag nach links, Abstandswert von rechts durch zwei minus Abstandswert von links durch zwei
     if(llenken > 150){
       llenken = 150;
     }
@@ -113,21 +119,21 @@ Abstand();
     }
     break;
     case 1: //Rot
-    y=millis()+2000;
+    y=millis()+1000;
     while(y > millis()){
-    if(a < 210 && a > 2 || e < 270 && e > 2|| g < 270 && g > 2){
-      geradeaus();
+    /*if(a < 210 && a > 2 || e < 270 && e > 2|| g < 270 && g > 2){
+        geradeaus();
     }
-    else{
+    else{*/
       rechts(r);
-    }
+    //}
     Abstand();
     }
     break;
     case 2: //Grün
-    y=millis()+2000;
+    y=millis()+1000;
     while(y > millis()){
-    /*if(b < 270 && b > 2 || d < 270 && d > 2|| f < 270 && f > 2){
+    /*if(b < 210 && b > 2 || d < 270 && d > 2|| f < 270 && f > 2){
       geradeaus();
     }
     else{*/
@@ -140,7 +146,8 @@ Abstand();
     Antrieb(0,0,0);
     break;
     }
-  
+    }
+     
 }
 void links(byte a){
   analogWrite(SevPWM,   a);
@@ -207,7 +214,7 @@ void Abstand(){
     //perform data processing here...
      messwerte[angle] = distance;
   if(A==180){ 
-  //c = messwerte[A];  
+  c = messwerte[A];  
   //Serial.println(c); //messwert 0°
   }
   

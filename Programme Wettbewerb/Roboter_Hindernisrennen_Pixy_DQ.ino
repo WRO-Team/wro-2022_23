@@ -40,8 +40,8 @@ void loop() {
     for (byte i=0; i<pixy.ccc.numBlocks ; i++){
       FL = pixy.ccc.blocks[i].m_height*pixy.ccc.blocks[i].m_width;
       //  rot m_signature == 1 und Objekt FL größer 1000 pixel und Objekt befindet sich im rechten teil 140/315 = 40%
-      if(pixy.ccc.blocks[i].m_signature == 1 && FL > 1000 && pixy.ccc.blocks[i].m_x > 10){
-      Lenkwertr = 255 * (pixy.ccc.blocks[i].m_x/315.0); 
+      if(pixy.ccc.blocks[i].m_signature == 1 && FL > 500 && pixy.ccc.blocks[i].m_x > 10){
+      Lenkwertr = 255 * (315.0-pixy.ccc.blocks[i].m_x)/315.0;
       //Lenkwertl =0; 
       }
       else{
@@ -49,8 +49,8 @@ void loop() {
       //Lenkwertr =0; 
       }
       // grün m_signature == 2 und Objekt FL größer 1000 pixel und Objekt befindet sich im rechten teil 174/315 = 55%
-      if(pixy.ccc.blocks[i].m_signature == 2 && FL > 1000 && pixy.ccc.blocks[i].m_x < 300){
-      Lenkwertl = 255 * (315.0-pixy.ccc.blocks[i].m_x)/315.0;
+      if(pixy.ccc.blocks[i].m_signature == 2 && FL > 500 && pixy.ccc.blocks[i].m_x < 300){
+      Lenkwertl = 255 * (pixy.ccc.blocks[i].m_x/315.0); 
       //Lenkwertr =0;
       }
       else{
@@ -59,10 +59,12 @@ void loop() {
       }
       Serial.print("Objektgröße: ");
       Serial.println(FL);
-      Serial.print("Farbe: ");
+      /*Serial.print("Farbe: ");
       Serial.println(pixy.ccc.blocks[i].m_signature);
       Serial.print("Objektposition: ");
-      Serial.println(pixy.ccc.blocks[i].m_x);
+      Serial.println(pixy.ccc.blocks[i].m_x);*/
+      //Serial.println(Lenkwertr);
+      //Serial.println(Lenkwertl);
       }}
       else{
          Lenkwertl=0;
