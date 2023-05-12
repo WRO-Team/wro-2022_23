@@ -1,1 +1,57 @@
+Motoren
 
+Hersteller: LEGO
+Lego XL-Motor (8882)
+Maximaler Drehmoment von 90,4 mNm bei 600 mA Strom
+im Leerlauf dreht er sich mit 220 RPM
+Stromverbrauch(Normal) : 300mA
+Stromverbrauch(Max) : 600mA
+Betriebsspannung: 12V
+
+Servomotor
+
+Hersteller LEGO
+Lego Servomotor (88004)
+verbundene Ausgänge für Allrad 
+15 Drehpositionen, 1 Mittelposition, jeweils 7 Positionen im und gegen den Uhrzeigersinn
+Maximales Drehmoment von 250 mNm bei 300mA
+ohne Auflast 360°/s
+Stromverbrauch unter Normalen Bedingungen ca. 150mA 
+Maximal 300mA
+Betriebsspannung: 12V
+
+LIDAR RPLIDAR-A1
+
+Modell: A1M8
+Hersteller SLAMTEC
+typische Messdistanz: zwischen 15cm und ca. 12 Metern
+Auflösung: <0,5mm bei 1,5 Metern
+Anschlüsse: TX, RX,Serielle Kommunikation VCC, GND + VCCMoto, GND, MOTOCTRL
+Betriebsspannung: 5V
+Anfangsstrom 500mA
+Normalstrom: 300mA
+Betriebstemperatur: 0-45°C
+ist ein 360° 2D Entfernungsmessgerät
+es benutzt ein trigonometrisches Messverfahren in dem es den von einer Oberfläche reflektierten Lichtpunkt erfasst und anhand des Einfallswinkels berechnet wie weit die Oberfläche entfernt ist
+Indem sich der LIDAR dreht erfasst er diese Angaben aus 360° und kann damit ein Räumliches Wahrnehmen ermöglichen
+Preis: ca. 120€
+
+Farbsensor
+
+Modell: SEN-Color
+Hersteller: JoyIT
+ermittelt die RGB-Anteile in einer von den LEDs reflektierten Farbe
+Gibt auf seinen Ausgängen jeweils ein Signal aus welches in Relation mit der Intensität der gemessenen Farbe steht
+Ausgänge S0, S1, S2, S3 wofür die jeweils für Rot, Grün, Blau und Clear stehen
+Betriebsspannung: 3,3-5V
+Chip: TCS3200
+
+Pixy 2.1
+Hersteller: CharmedLabs
+
+Intelligente Kamera, kann Farbsignaturen speichern und in echtzeit auf dem Live-Feed erkennen und deren Größe und Position im Kamerabild erfassen
+Kann per USB an einen Computer sowie mit I2C an den Arduino angeschlossen werden
+Bildwiederholungsrate: 60 FPS
+Prozessor: NXP LPC4330, 204MHz, dual Core
+Bildsensor: Aptina MT9M114, 1296x976
+Sichtbereich: 60° Horizontal, 40° Vertikal
